@@ -8,7 +8,7 @@ namespace WebApplication1.Controllers
         public ActionResult Index()
         {
             var model = new HomeRenderingModel();
-            model.Name = "Hello World!";
+            model.Name = "Hehe";
             return this.View(model);
         }
     }
