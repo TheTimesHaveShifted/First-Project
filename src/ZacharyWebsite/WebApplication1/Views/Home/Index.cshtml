@@ -1,15 +1,8 @@
 ﻿@model WebApplication1.Models.HomeRenderingModel
+@{
+    Layout = "../Layouts/Default.cshtml";
+}
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title></title>
-</head>
-<body>
-    <div>
-        @Model.Name Zachary
-    </div>
-</body>
-</html>
+<div class="container bg-primary">
+    <span>@Model.Name</span>
+</div>
